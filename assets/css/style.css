@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+*{
+    margin: 2px;
+    padding: 2px;
+}
+
+
+/* This text is in Goudy Old Style */
+body { 
+	font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(248, 237, 246);
+}
+
+#content {
+    background-color: rgb(248, 237, 246);
+    padding:20px;
+    width: 1835px;
+    float: left;
+    margin-top: 5px;
+}
+
+.titulo {
+    color: saddlebrown;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Inspiration', cursive;
+    font-weight: bold;
+}
+
+#menu{
+    display: grid;
+    padding: 0.5em;
+    background-color: rgb(248, 245, 241);
+    font-weight: bold;   
+    font-size: 15px;
+    justify-content: center;
+    height: 50px;
+    text-align: center;
+}
+
+.Container1 {
+    font-size: 25px;
+    text-align: center;
+    color: saddlebrown;
+    font-weight: bold;
+}
+
+.grid {
+    display: grid;
+    margin-top: 50px;
+    height: 400px;
+    align-items: center;
+    margin-left: 110px;
+    margin-right: 100px;
+    grid-template-columns: repeat(3, 500px);
+    grid-template-rows: 300px;
+    gap: 1em;
+}
+
+.grid .card:hover {
+    border: 2px solid rgb(228, 161, 99);
+}
+
+.container2 {
+    text-align: center;
+    height: 400px;
+    margin-bottom: 60px;
+}
+
+.contai2 {
+    margin-bottom: 50px;
+    color: saddlebrown;
+    font-size: 25px;
+}
+
+.listaPro {
+    grid-template-columns: 200px;
+    grid-template-rows: 600px;
+    background-color: rgb(248, 245, 241);
+    margin-right: 1570px;
+    margin-left: 20px;
+    padding-left: 70px;
+    padding-right: 40px;
+
+
+}
+
+#productos {
+    display: grid;
+    margin-left: 20px;
+    position: relative;
+    grid-template-columns: repeat(3, 500px);
+    grid-template-rows: repeat(5, 350px);
+    margin-left: 300px;
+}
+
+#productos .card:hover {
+    border: 2px solid rgb(228, 161, 99);
+}
+
+
+
+.card {
+    display: flex;
+    display: inline-table;
+    height: 300px;
+    margin-left: 70px;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.card__image {
+    width: 35%;
+    text-align: center;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.card:hover .card__image {
+    -webkit-transform: scale(1.5); transform: scale(1.5);
+}
+
+
+.btn {
+    padding: 0.3em;
+    text-align:center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    display: inline-block;
+    width: 25%;
+    border-radius: 20px;
+}
+
+.contacto {
+    color: saddlebrown;
+    width: 600px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.text {
+    margin-right: 1000px;
+}
+
+.card__content {
+    margin-left: 70px;
+}
+
+.btn--success {
+    background-color: rgb(197, 136, 79);
+    border: 2px solid rgb(48, 33, 19);
+    color: whitesmoke;
+    padding-right: 20px;
+    margin-left: 50px;
+    transition: background-color ease-in 2ms;
+}
+
+.btn--success:hover {
+    background-color:rgb(48, 33, 19);
+}
+
+.btn1 {
+    padding: 0.3em;
+    text-align:center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    display: inline-block;
+    width: 10%;
+    border-radius: 20px;
+}
+
+.btn--success1 {
+    background-color: rgb(197, 136, 79);
+    border: 2px solid rgb(48, 33, 19);
+    color: whitesmoke;
+}
+
+.lista {
+    display: grid;
+   background-color: rgb(255, 255, 255);
+   font-size: 15px;
+
+}
+
+.compral {
+    margin-left: 50px;
+    margin-top: 70px;
+    width: 1300px;
+    height: 600px;
+}
+
+.domicilio {
+    width: 400px;
+    margin-right: 300px;
+}
+
+.tienda {
+    width: 400px;
+    margin-left: 100px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+}
+ul ul {
+    position: absolute;
+    display: none;
+}
+
+ul ul li {
+    display: none;
+}
+
+ul li:hover ul{
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(65, 223, 88);
+    }
+}
+
+@media only screen and (min-width: 500%) {
+    body {
+        background-color: aqua;
+    }
+}
