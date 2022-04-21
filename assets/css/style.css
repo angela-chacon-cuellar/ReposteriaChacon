@@ -17,7 +17,6 @@ body {
     background-color: rgb(248, 237, 246);
     padding:20px;
     width: 1835px;
-    float: left;
     margin-top: 5px;
 }
 
@@ -29,23 +28,24 @@ body {
     font-weight: bold;
 }
 
-#menu{
-    display: grid;
-    padding: 0.5em;
-    background-color: rgb(248, 245, 241);
-    font-weight: bold;   
-    font-size: 15px;
-    justify-content: center;
-    height: 50px;
-    text-align: center;
-}
 
 .Container1 {
     font-size: 25px;
     text-align: center;
     color: saddlebrown;
     font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 70px;
 }
+section {
+    margin-left: 150px;
+    height: 700px;
+}
+
+.card-img-top {
+    padding-left: 50px;
+}
+
 
 .grid {
     display: grid;
@@ -140,6 +140,8 @@ body {
     width: 600px;
     margin-left: 50px;
     margin-bottom: 50px;
+    margin-top: 80px;
+    margin-bottom: 100px;
 }
 
 .text {
@@ -163,6 +165,10 @@ body {
     background-color:rgb(48, 33, 19);
 }
 
+.productosBoot {
+    height: 100px;
+}
+
 .btn1 {
     padding: 0.3em;
     text-align:center;
@@ -183,7 +189,7 @@ body {
 .lista {
     display: grid;
    background-color: rgb(255, 255, 255);
-   font-size: 15px;
+   font-size: 10px;
 
 }
 

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
     <title>Productos</title>
 </head>
@@ -13,24 +14,47 @@
     <header>
         <div id="content">
             <h1 class="titulo">DELEITOS DE AMOR</h1>
-            <!-- lista no ordenada con el menú principal -->
+
         </div>
     </header>
-    <nav>
-        <div id="menu">
-            <ul>
-                <!-- Listas no ordenadas construyendo enlaces entre los HTML -->
-                <li><a href="../index.html">INICIO</a> </li>
-                <li><a href="productos.html">PRODUCTOS</a>
-                    <ul>
-                        <li><a href="">Chocolate</a></li>
-                        <li><a href="">Frutos Rojos</a></li>
-                    </ul>
-                </li>
-                <li><a href="celebraciones.html">CELEBRACIONES</a></li>
-                <li><a href="compral.html">COMPRA LINEA</a></li>
-                <li><a href="contactanos.html">CONTACTANOS</a></li>
-            </ul>
+    <!-- lista no ordenada con el menú principal -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../Images/logo.png" alt="" width="80" height="80">
+            </a>
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="celebraciones.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="productos.html">PRODUCTOS</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">TORTAS</a></li>
+                            <li><a class="dropdown-item" href="#">POSTRES</a></li>
+                            <li><a class="dropdown-item" href="#">CUPCAKES</a></li>
+                            <li><a class="dropdown-item" href="#">ANTOJITOS</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="celebraciones.html">CELEBRACIONES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="compral.html">COMPRA LINEA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactanos.html">CONTACTANOS</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button type="button" class="btn btn-outline-secondary btn-sm">Buscar</button>
+                </form>
+            </div>
         </div>
     </nav>
     <!-- Agregando el iframe contenido de una de las páginas -->
@@ -40,110 +64,84 @@
         <h2>Deleitate con nuestros mejores productos</h2>
     </div>
 
-    <aside>
-        <div class="listaPro">
-         <ul>
-             <li> <a href="#">TORTAS</a></li>
-             <li> <a href="#">POSTRES</a></li>
-             <li> <a href="#">CUPCAKES</a></li>
-             <li> <a href="#">ALFAJORES</a></li>
-             <li> <a href="#">ANTOJITOS</a></li>
-         </ul>
-        </div>
-    </aside>
-
-    <section>
-        <div id="productos">
-            <div class="card">
-                <img src="../Images/Cake3.png" alt="" class="card__image">
-                <div class="card__content">
-                    <h2>
-                        Deliciosos Wafles
-                    </h2>
-                    <a href="#" class="btn btn--success card__btn--floatRight">COMPRAR</a>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="../Images/postres.png" alt="" class=" card__image">
-                <div class="card__content">
-                    <h2>
-                        Deliciosos Postres
-                    </h2>
-                    <a href="#" class="btn btn--success card__btn--floatRight">COMPRAR</a>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="../Images/torta.png" alt="" class="card__image">
-                <div class="card__content">
-                    <h2>
-                        Deliciosas Tortas
-                    </h2>
-                    <a href="#" class="btn btn--success card__btn--floatRight">COMPRAR</a>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="../Images/Cake.png" alt="" class="card__image">
-                <div class="card__content">
-                    <h2>
-                        Deliciosos cupcakes
-                    </h2>
-                    <a href="#" class="btn btn--success card__btn--floatRight">COMPRAR</a>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="../Images/Cake1.png" alt="" class="card__image">
-                <div class="card__content">
-                    <h2>
-                        Deliciosos cupcakes
-                    </h2>
-                    <a href="#" class="btn btn--success card__btn--floatRight">COMPRAR</a>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="../Images/cake2.png" alt="" class="card__image">
-                <div class="card__content">
-                    <h2>
-                        Deliciosos cupcakes
-                    </h2>
-                    <a href="#" class="btn btn--success card__btn--floatRight">COMPRAR</a>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="../Images/pastel.png" alt="" class="card__image">
-                <div class="card__content">
-                    <h2>
-                        Deliciosos pasteles
-                    </h2>
-                    <a href="#" class="btn btn--success card__btn--floatRight">COMPRAR</a>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="../Images/pastel1.png" alt="" class="card__image">
-                <div class="card__content">
-                    <h2>
-                        Deliciosos pasteles
-                    </h2>
-                    <a href="#" class="btn btn--success card__btn--floatRight">COMPRAR</a>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="../Images/pastel3.png" alt="" class="card__image">
-                <div class="card__content">
-                    <h2>
-                        Deliciosos pasteles
-                    </h2>
-                    <a href="#" class="btn btn--success card__btn--floatRight">COMPRAR</a>
-                </div>
+    <section class="productosBoot">
+        <div class="card" style="width: 25rem;">
+            <img src="../Images/Cake3.png" class="card-img-top text-center" style="width: 18rem;" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center fs-4">Delicioso Wafles</h5>
+                <button type="button" class="btn btn-secondary text-center" style="width: 8rem;">COMPRAR</button>
             </div>
         </div>
+
+        <div class="card" style="width: 25rem;">
+            <img src="../Images/postres.png" class="card-img-top text-center" style="width: 18rem;" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center fs-4">Delicioso Wafles</h5>
+                <button type="button" class="btn btn-secondary text-center" style="width: 8rem;">COMPRAR</button>
+            </div>
+        </div>
+
+        <div class="card" style="width: 25rem;">
+            <img src="../Images/torta.png" class="card-img-top text-center" style="width: 18rem;" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center fs-4">Delicioso Wafles</h5>
+                <button type="button" class="btn btn-secondary" style="width: 8rem;">COMPRAR</button>
+            </div>
+        </div>
+        </div>
+
+        <div class="card" style="width: 25rem;">
+            <img src="../Images/cake.png" class="card-img-top text-center" style="width: 18rem;" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center fs-4">Delicioso Wafles</h5>
+                <button type="button" class="btn btn-secondary" style="width: 8rem;">COMPRAR</button>
+            </div>
+        </div>
+        </div>
+        <div class="card" style="width: 25rem;">
+            <img src="../Images/Cake1.png" class="card-img-top text-center" style="width: 18rem;" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center fs-4">Delicioso Wafles</h5>
+                <button type="button" class="btn btn-secondary" style="width: 8rem;">COMPRAR</button>
+            </div>
+        </div>
+        </div>
+
+        <div class="card" style="width: 25rem;">
+            <img src="../Images/cake2.png" class="card-img-top text-center" style="width: 18rem;" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center fs-4">Delicioso Wafles</h5>
+                <button type="button" class="btn btn-secondary" style="width: 8rem;">COMPRAR</button>
+            </div>
+        </div>
+        </div>
+
+        <div class="card" style="width: 25rem;">
+            <img src="../Images/pastel.png" class="card-img-top text-center" style="width: 18rem;" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center fs-4">Delicioso Wafles</h5>
+                <button type="button" class="btn btn-secondary" style="width: 8rem;">COMPRAR</button>
+            </div>
+        </div>
+        </div>
+        <div class="card" style="width: 25rem;">
+            <img src="../Images/pastel1.png" class="card-img-top text-center" style="width: 18rem;" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center fs-4">Delicioso Wafles</h5>
+                <button type="button" class="btn btn-secondary" style="width: 8rem;">COMPRAR</button>
+            </div>
+        </div>
+        </div>
+
+        <div class="card" style="width: 25rem;">
+            <img src="../Images/pastel3.png" class="card-img-top text-center" style="width: 18rem;" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center fs-4">Delicioso Wafles</h5>
+                <button type="button" class="btn btn-secondary" style="width: 8rem;">COMPRAR</button>
+            </div>
+        </div>
+        </div>
+
     </section>
 
 
@@ -152,22 +150,7 @@
 
     <!-- Iframe de otro sitio (video) -->
 
-    <footer>
-        <fieldset class="lista">
-            <h4>Nos puedes encontrar en: Cra 5 # 2-75 Huila - Colombia</h4>
-            <h3> Encuentranos en nuestra redes sociales</H3>
-            <ul>
-                <li class="facebook"><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
-                <li class="whatsapp"><a href="https://web.whatsapp.com/" target="_blank">Whatsapp</a></li>
-                <li class="instagram"><a href="https://www.instagram.com/?hl=es-la" target="_blank">Instagram</a></li>
-
-            </ul>
-
-            <h3>GRACIAS!</h3>
-            <H3>Deleitate con amor te espera</H3>
-        </fieldset>
-        </div>
-    </footer>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

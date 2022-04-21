@@ -11,65 +11,91 @@
 </head>
 
 <body>
-    <div id="content">
-        <h1 id="titulo">DELEITOS DE AMOR</h1>
-        <!-- lista no ordenada con el menú principal -->
-        <div class="menu">
-            <ul>
-                <!-- Listas no ordenadas construyendo enlaces entre los HTML -->
-                <!-- Enlace de la página -->
-                <li><a href="../index.html">INICIO</a> </li>
-                <li><a href="productos.html">PRODUCTOS</a>
-                    <ul>
-                        <li><a href="">Chocolate</a></li>
-                        <li><a href="">Frutos Rojos</a></li>
-                    </ul>
-                </li>
-                <li><a href="celebraciones.html">CELEBRACIONES</a></li>
-                <li><a href="compral.html">COMPRA LINEA</a></li>
-                <li><a href="contactanos.html">CONTACTANOS</a></li>
-            </ul>
+    <header>
+        <div id="content">
+            <h1 class="titulo">DELEITOS DE AMOR</h1>
+
         </div>
+    </header>
+    <!-- lista no ordenada con el menú principal -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../Images/logo.png" alt="" width="80" height="80">
+            </a>
 
 
-        <div class="contacto">
-
-            <h3>Deja tus datos y nos contactaremos contigo</h3>
-
-            <form>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="nombrecliente">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleNumber" class="form-label">Celular</label>
-                    <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="CelularCliente">
-                </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
-            </form>
-
-           
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="celebraciones.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="productos.html">PRODUCTOS</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">TORTAS</a></li>
+                            <li><a class="dropdown-item" href="#">POSTRES</a></li>
+                            <li><a class="dropdown-item" href="#">CUPCAKES</a></li>
+                            <li><a class="dropdown-item" href="#">ANTOJITOS</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="celebraciones.html">CELEBRACIONES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="compral.html">COMPRA LINEA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactanos.html">CONTACTANOS</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button type="button" class="btn btn-outline-secondary btn-sm">Buscar</button>
+                </form>
+            </div>
         </div>
+    </nav>
+
+    <div class="contacto">
+
+        <h3>Deja tus datos y nos contactaremos contigo</h3>
+
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="nombrecliente">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="exampleNumber" class="form-label">Celular</label>
+                <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="CelularCliente">
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
 
 
-        <!-- medios de contacto pie de pagina footer -->
-        <fieldset class="lista">
-            <h4>Nos puedes encontrar en: Cra 5 # 2-75 Huila - Colombia</h4>
-            <h3> Encuentranos en nuestra redes sociales</H3>
-            <ul>
-                <li class="facebook"><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
-                <li class="whatsapp"><a href="https://web.whatsapp.com/" target="_blank">Whatsapp</a></li>
-                <li class="instagram"><a href="https://www.instagram.com/?hl=es-la" target="_blank">Instagram</a></li>
+    </div>
 
-            </ul>
 
-            <h3>GRACIAS!</h3>
-            <H3>Deleitate con amor te espera</H3>
-        </fieldset>
+    <!-- medios de contacto pie de pagina footer -->
+    <fieldset class="lista">
+        <h4>Nos puedes encontrar en: Cra 5 # 2-75 Huila - Colombia</h4>
+        <h3> Encuentranos en nuestra redes sociales</H3>
+        <ul>
+            <li class="facebook"><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+            <li class="whatsapp"><a href="https://web.whatsapp.com/" target="_blank">Whatsapp</a></li>
+            <li class="instagram"><a href="https://www.instagram.com/?hl=es-la" target="_blank">Instagram</a></li>
+
+        </ul>
+
+        <h3>GRACIAS!</h3>
+        <H3>Deleitate con amor te espera</H3>
+    </fieldset>
     </div>
     <script src="../assets/js/bootstrap.bundle.min.js"></script>
 
