@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
     <title>Productos</title>
 </head>
@@ -13,47 +14,100 @@
     <header>
         <div id="content">
             <h1 class="titulo">DELEITOS DE AMOR</h1>
-            <!-- lista no ordenada con el menú principal -->
+
         </div>
     </header>
     <!-- lista no ordenada con el menú principal -->
-    <nav>
-        <div id="menu">
-            <ul>
-                <!-- Listas no ordenadas construyendo enlaces entre los HTML -->
-                <li><a href="../index.html">INICIO</a> </li>
-                <li><a href="productos.html">PRODUCTOS</a>
-                    <ul>
-                        <li><a href="">Chocolate</a></li>
-                        <li><a href="">Frutos Rojos</a></li>
-                    </ul>
-                </li>
-                <li><a href="celebraciones.html">CELEBRACIONES</a></li>
-                <li><a href="compral.html">COMPRA LINEA</a></li>
-                <li><a href="contactanos.html">CONTACTANOS</a></li>
-            </ul>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../Images/logo.png" alt="" width="80" height="80">
+            </a>
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="celebraciones.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="productos.html">PRODUCTOS</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">TORTAS</a></li>
+                            <li><a class="dropdown-item" href="#">POSTRES</a></li>
+                            <li><a class="dropdown-item" href="#">CUPCAKES</a></li>
+                            <li><a class="dropdown-item" href="#">ANTOJITOS</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="celebraciones.html">CELEBRACIONES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="compral.html">COMPRA LINEA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactanos.html">CONTACTANOS</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button type="button" class="btn btn-outline-secondary btn-sm">Buscar</button>
+                </form>
+            </div>
         </div>
     </nav>
 
-    <div class="compral">
-        <img src="../Images/domicilio.jpg" alt="" class="domicilio">
-        <img src="../Images/tienda.jpg" alt="" class="tienda">
-
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="../Images/domicilio.jpg" alt="" class="domicilio">
+                <h3>COMPRA A DOMICILIO</h3>
+            </div>
+            <div class="col">
+                <img src="../Images/tienda.jpg" alt="" class="tienda">
+                <H3>COMPRA EN LA TIENDA</H3>
+            </div>
+        </div>
     </div>
 
-    <fieldset class="lista">
-        <h4>Nos puedes encontrar en: Cra 5 # 2-75 Huila - Colombia</h4>
-        <h3> Encuentranos en nuestra redes sociales</H3>
-        <ul>
-            <li class="facebook"><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
-            <li class="whatsapp"><a href="https://web.whatsapp.com/" target="_blank">Whatsapp</a></li>
-            <li class="instagram"><a href="https://www.instagram.com/?hl=es-la" target="_blank">Instagram</a></li>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Suscribase</h2>
+                    <p>Recibe información de nuestros productos y ofertas especiales</p>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+                <div class="col">
+                    <h2>Contactenos</h2>
+                    <p>Cra 5 # 2-75 Huila - Colombia</p>
+                    <p>whatsapp: 3046248278 - 3214569870</p>
+                    <p>deleitosdeamor@gmail.com</p>
+                    <p>Garzón - Huila - Colombia</p>
 
-        </ul>
-        <h3>GRACIAS!</h3>
-        <H3>Deleitate con amor te espera</H3>
-    </fieldset>
-    </div>
+
+                </div>
+                <div class="col">
+                    <ul>
+                        <li class="facebook"><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                        <li class="whatsapp"><a href="https://web.whatsapp.com/" target="_blank">Whatsapp</a></li>
+                        <li class="instagram"><a href="https://www.instagram.com/?hl=es-la"
+                                target="_blank">Instagram</a></li>
+
+                    </ul>
+                    <h5>Deleitate con amor esta para brindarte los mejores productos de calidad para deleitar tus dias y
+                        momentos</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
 
 </body>
 

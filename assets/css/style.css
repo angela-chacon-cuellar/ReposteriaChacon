@@ -210,6 +210,23 @@ section {
     margin-left: 100px;
 }
 
+footer {
+    background-color: bisque;
+}
+
+.cele {
+    margin-top: 50px;
+    margin-left: 500px;
+}
+.celebraciones {
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.card-img-top {
+    width: 30px;
+}
 
 ul {
     list-style: none;
