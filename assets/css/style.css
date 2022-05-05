@@ -3,6 +3,15 @@
   margin: 2px;
   padding: 2px; }
 
+nav {
+  background-color: white; }
+  nav div {
+    color: #8b5e42;
+    font-size: 20px; }
+
+h {
+  color: #753b20; }
+
 /* This text is in Goudy Old Style */
 body {
   font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif;
@@ -17,7 +26,7 @@ body {
   margin-top: 5px; }
 
 .titulo {
-  color: saddlebrown;
+  color: #8b5e42;
   font-size: 45px;
   text-align: center;
   font-family: 'Inspiration', cursive;
@@ -26,17 +35,17 @@ body {
 .Container1 {
   font-size: 25px;
   text-align: center;
-  color: saddlebrown;
+  color: #8b5e42;
   font-weight: bold;
   margin-top: 50px;
   margin-bottom: 70px; }
 
 section {
   margin-left: 150px;
-  height: 700px; }
+  height: 1000px; }
 
 .card-img-top {
-  padding-left: 50px; }
+  padding-left: 30%; }
 
 .grid {
   display: grid;
@@ -173,7 +182,8 @@ section {
   margin-left: 100px; }
 
 footer {
-  background-color: bisque; }
+  background-color: #e4cbaa;
+  margin-top: 900px; }
 
 .cele {
   margin-top: 50px;
@@ -185,13 +195,13 @@ footer {
   margin-top: 50px; }
 
 .card-img-top {
-  width: 30px; }
+  width: 10%; }
 
 ul {
   background-color: #f8edf6;
   list-style: none; }
   ul a {
-    color: saddlebrown;
+    color: #8b5e42;
     text-decoration: none; }
   ul li {
     display: inline-block;

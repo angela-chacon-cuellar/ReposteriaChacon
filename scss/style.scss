@@ -4,13 +4,34 @@
     padding: 2px;
 }
 
+$color-background: rgb(248, 237, 246);
+$color-boxes-font: rgb(139, 94, 66);
+
+nav {
+    background-color: white;
+    
+    div {
+        color: $color-boxes-font;
+        font-size: 20px;
+    }
+}
+
+//IF
+$color: siena;
+
+h {
+    @if ($color == siena) {
+        color:rgb(117, 59, 32);
+    }
+}   
+
 
 /* This text is in Goudy Old Style */
 body { 
 	font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
     font-size: 20px;
     font-weight: bold;
-    background-color: rgb(248, 237, 246);
+    background-color: $color-background;
 }
 
 #content {
@@ -21,7 +42,7 @@ body {
 }
 
 .titulo {
-    color: saddlebrown;
+    color: $color-boxes-font;
     font-size: 45px;
     text-align: center;
     font-family: 'Inspiration', cursive;
@@ -32,18 +53,18 @@ body {
 .Container1 {
     font-size: 25px;
     text-align: center;
-    color: saddlebrown;
+    color: $color-boxes-font;
     font-weight: bold;
     margin-top: 50px;
     margin-bottom: 70px;
 }
 section {
     margin-left: 150px;
-    height: 700px;
+    height: 1000px;
 }
 
 .card-img-top {
-    padding-left: 50px;
+    padding-left:30%;
 }
 
 
@@ -211,7 +232,9 @@ section {
 }
 
 footer {
-    background-color: bisque;
+    background-color:rgb(228, 203, 170);
+    margin-top: 900px;
+    
 }
 
 .cele {
@@ -225,15 +248,15 @@ footer {
 }
 
 .card-img-top {
-    width: 30px;
+    width: 10%;
 }
 
 ul {
-    background-color: rgb(248, 237, 246);
+    background-color: $color-background;
     list-style: none;
 
     a {
-        color: saddlebrown;
+        color: $color-boxes-font;
         text-decoration: none;
     }
 
