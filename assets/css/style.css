@@ -31,6 +31,10 @@ body {
   text-align: center;
   font-family: 'Inspiration', cursive;
   font-weight: bold; }
+  .titulo h1 {
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: infinite; }
 
 .Container1 {
   font-size: 25px;
@@ -41,8 +45,8 @@ body {
   margin-bottom: 70px; }
 
 section {
-  margin-left: 150px;
-  height: 1000px; }
+  margin-left: 100px;
+  height: 800px; }
 
 .card-img-top {
   padding-left: 30%; }
@@ -88,19 +92,32 @@ section {
   grid-template-rows: repeat(5, 350px);
   margin-left: 300px; }
 
+.videos {
+  margin-bottom: 200px; }
+
 #productos .card:hover {
   border: 2px solid #e4a163; }
 
 .card {
   display: flex;
   display: inline-table;
+  height: 100px;
+  margin-left: 70px;
+  margin-top: 20px;
+  align-items: center;
+  overflow: hidden; }
+
+.cardS {
+  display: flex;
+  display: inline-table;
   height: 300px;
   margin-left: 70px;
+  margin-top: 20px;
   align-items: center;
   overflow: hidden; }
 
 .card__image {
-  width: 35%;
+  width: 20%;
   text-align: center;
   padding-left: 100px;
   padding-top: 20px; }
@@ -145,7 +162,7 @@ section {
   background-color: #302113; }
 
 .productosBoot {
-  height: 100px; }
+  height: 1100px; }
 
 .btn1 {
   padding: 0.3em;
@@ -183,7 +200,7 @@ section {
 
 footer {
   background-color: #e4cbaa;
-  margin-top: 900px; }
+  margin-top: 100px; }
 
 .cele {
   margin-top: 50px;
@@ -195,7 +212,7 @@ footer {
   margin-top: 50px; }
 
 .card-img-top {
-  width: 10%; }
+  width: 15%; }
 
 ul {
   background-color: #f8edf6;
