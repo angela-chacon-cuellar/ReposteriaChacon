@@ -19,13 +19,6 @@ nav {
 //IF
 $color: siena;
 
-h {
-    @if ($color == siena) {
-        color:rgb(117, 59, 32);
-    }
-}   
-
-
 /* This text is in Goudy Old Style */
 body { 
 	font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
@@ -35,14 +28,14 @@ body {
 }
 
 #content {
-    background-color: rgb(248, 237, 246);
-    padding:20px;
+    background-color: rgb(243, 227, 240);
+    padding: 20px;
     width: 1835px;
     margin-top: 5px;
 }
 
 .titulo {
-    color: $color-boxes-font;
+    color:rgb(82, 39, 9);
     font-size: 45px;
     text-align: center;
     font-family: 'Inspiration', cursive;
@@ -55,6 +48,10 @@ body {
       
 }
 
+.navbar-nav {
+    color: rgb(95, 46, 11);
+
+}
 
 .Container1 {
     font-size: 25px;
@@ -64,13 +61,15 @@ body {
     margin-top: 50px;
     margin-bottom: 70px;
 }
+
 section {
-    margin-left: 100px;
+    margin-left: 80px;
     height: 800px;
+    color: rgb(139, 94, 66);
 }
 
 .card-img-top {
-    padding-left:30%;
+    padding-left:25%;
 }
 
 
@@ -123,7 +122,7 @@ section {
     margin-left: 300px;
 }
 
-.videos {
+.video{
    margin-bottom: 200px;
 }
 
@@ -155,7 +154,7 @@ section {
 .card__image {
     width: 20%;
     text-align: center;
-    padding-left: 100px;
+    padding-left: 150px;
     padding-top: 20px;
 }
 
@@ -173,6 +172,7 @@ section {
     display: inline-block;
     width: 25%;
     border-radius: 20px;
+    background-color: rgb(197, 136, 79);
 }
 
 .contacto {
@@ -258,7 +258,8 @@ footer {
 
 .cele {
     margin-top: 50px;
-    margin-left: 500px;
+    margin-left: 400px;
+    color: rgb(139, 94, 66);
 }
 .celebraciones {
     height: 500px;

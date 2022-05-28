@@ -9,9 +9,6 @@ nav {
     color: #8b5e42;
     font-size: 20px; }
 
-h {
-  color: #753b20; }
-
 /* This text is in Goudy Old Style */
 body {
   font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif;
@@ -20,14 +17,14 @@ body {
   background-color: #f8edf6; }
 
 #content {
-  background-color: #f8edf6;
+  background-color: #ebc2e3;
   padding: 20px;
-  width: 1835px;
+  width: 1700%;
   margin-top: 5px; }
 
 .titulo {
-  color: #8b5e42;
-  font-size: 45px;
+  color: #5f2e0b;
+  font-size: 50px;
   text-align: center;
   font-family: 'Inspiration', cursive;
   font-weight: bold; }
@@ -35,6 +32,9 @@ body {
     animation-duration: 5s;
     animation-name: slidein;
     animation-iteration-count: infinite; }
+
+.navbar-nav {
+  color: #5f2e0b; }
 
 .Container1 {
   font-size: 25px;
@@ -45,11 +45,11 @@ body {
   margin-bottom: 70px; }
 
 section {
-  margin-left: 100px;
+  margin-left: 90px;
   height: 800px; }
 
 .card-img-top {
-  padding-left: 30%; }
+  padding-left: 20%; }
 
 .grid {
   display: grid;
@@ -92,7 +92,7 @@ section {
   grid-template-rows: repeat(5, 350px);
   margin-left: 300px; }
 
-.videos {
+.video {
   margin-bottom: 200px; }
 
 #productos .card:hover {
