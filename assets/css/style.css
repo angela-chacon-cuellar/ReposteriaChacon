@@ -19,7 +19,7 @@ body {
 #content {
   background-color: #f3e3f0;
   padding: 20px;
-  width: 1835px;
+  width: 100%;
   margin-top: 5px; }
 
 .titulo {
@@ -136,7 +136,8 @@ section {
   display: inline-block;
   width: 25%;
   border-radius: 20px;
-  background-color: #c5884f; }
+  background-color: #c5884f;
+  border: 2px solid #302113; }
 
 .contacto {
   color: saddlebrown;

@@ -30,7 +30,7 @@ body {
 #content {
     background-color: rgb(243, 227, 240);
     padding: 20px;
-    width: 1835px;
+    width: 100%;
     margin-top: 5px;
 }
 
@@ -173,6 +173,8 @@ section {
     width: 25%;
     border-radius: 20px;
     background-color: rgb(197, 136, 79);
+    border: 2px solid rgb(48, 33, 19);
+
 }
 
 .contacto {
