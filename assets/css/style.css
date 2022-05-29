@@ -94,7 +94,8 @@ section {
   margin-left: 300px; }
 
 .video {
-  margin-bottom: 200px; }
+  margin-bottom: 200px;
+  text-align: center; }
 
 #productos .card:hover {
   border: 2px solid #e4a163; }
