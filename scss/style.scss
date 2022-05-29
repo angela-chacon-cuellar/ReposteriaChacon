@@ -145,7 +145,7 @@ section {
     display: flex;
     display: inline-table;
     height: 300px;
-    margin-left: 70px;
+    margin-left: 50px;
     margin-top: 20px;
     align-items: center;
     overflow: hidden;
@@ -269,6 +269,11 @@ footer {
 
 .card-img-top {
     width: 15%;
+}
+
+.card-body {
+    font-size: 30px;
+    text-align: center;
 }
 
 ul {
